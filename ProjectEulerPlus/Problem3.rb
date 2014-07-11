@@ -1,3 +1,11 @@
+=begin
+  Project Euler Plus Problem 3
+  Has some issues...still need to work on getting large inputs to work
+  Currently I get all primes up to the value using a Sieve...but this takes up too much memory
+  Especially since the max value is 10**12
+  I dunno what to do...hopefully I get time to come back and fix this later, still working on it.
+=end
+
 def primesUpTo(n)
   s = (0..n).to_a
   s[0] = s[1] = nil
